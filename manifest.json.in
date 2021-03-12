@@ -1,0 +1,15 @@
+{
+    "name": "filedialogtest.nicofe",
+    "description": "Test",
+    "architecture": "@CLICK_ARCH@",
+    "title": "filedialogtest",
+    "hooks": {
+        "filedialogtest": {
+            "apparmor": "filedialogtest.apparmor",
+            "desktop":  "filedialogtest.desktop"
+        }
+    },
+    "version": "1.0.0",
+    "maintainer": "Nico <email@domain.org>",
+    "framework" : "@CLICK_FRAMEWORK@"
+}
